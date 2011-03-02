@@ -13,7 +13,20 @@ class SiteExtension < Spree::Extension
   # end
   
   def activate
-
+	if Spree::Config.instance
+	  Spree::Config.set(:site_name => "Loja Virtual")
+	  Spree::Config.set(:logo => "/images/maya_logo.png")
+	  Spree::Config.set(:admin_interface_logo => "spree/spree.jpg")
+	  Spree::Config.set(:allow_openid => false)
+	  Spree::Config.set(:products_per_page=>100)
+	  Spree::Config.set(:admin_products_per_page=>200)
+	  Spree::Config.set(:cache_static_content => false)
+	  Spree::Config.set(
+	    :show_zero_stock_products => true,
+	    :track_inventory_levels => true,
+	    :allow_backorders => false
+	  )
+	end
     # make your helper avaliable in all views
     # Spree::BaseController.class_eval do
     #   helper YourHelper
