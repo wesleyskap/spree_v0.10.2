@@ -1,7 +1,9 @@
 REQUIRES
 =======
 ruby 1.8.7
+
 rails >= 2.3.5
+
 rubygems >= 1.3.6
 
 SUMMARY

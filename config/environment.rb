@@ -5,7 +5,7 @@
 # ENV['RAILS_ENV'] ||= 'production'
 
 # Ativando themas
- SPREE_EXTENSIONS_LOAD_ORDER = [:theme_defaul, :all, :site]
+SPREE_EXTENSIONS_LOAD_ORDER = [:theme_default, :site, :all]
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 SPREE_GEM_VERSION = '0.10.2' unless defined? SPREE_GEM_VERSION
