@@ -4,6 +4,9 @@
 # you don't control web/app server and can't set it the proper way
 # ENV['RAILS_ENV'] ||= 'production'
 
+# Ativando themas
+ SPREE_EXTENSIONS_LOAD_ORDER = [:theme_defaul, :all, :site]
+
 # Specifies gem version of Rails to use when vendor/rails is not present
 SPREE_GEM_VERSION = '0.10.2' unless defined? SPREE_GEM_VERSION
 
@@ -88,12 +91,12 @@ Spree::Initializer.run do |config|
   # The internationalization framework can be changed to have another default locale (standard is :en) or more load paths.
   # All files from config/locales/*.rb,yml are added automatically.
   #config.i18n.load_path << Dir[File.join(RAILS_ROOT, 'my', 'locales', '*.{rb,yml}')]
-  config.i18n.default_locale = :'en-US'
+  config.i18n.default_locale = :'pt-BR'
 
 end
 
-Time::DATE_FORMATS[:date_time24] = "%Y-%m-%d %H:%M"
-Time::DATE_FORMATS[:short_date] = "%Y-%m-%d"
+Time::DATE_FORMATS[:date_time24] = "%d-%m-%Y %H:%M"
+Time::DATE_FORMATS[:short_date] = "%d-%m-%Y"
 
 # Add new inflection rules using the following format
 # (all these examples are active by default):
