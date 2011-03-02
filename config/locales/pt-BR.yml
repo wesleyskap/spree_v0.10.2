@@ -1,4 +1,3 @@
---- 
 pt-BR: 
   'no': "No"
   'yes': "Yes"
@@ -228,7 +227,7 @@ pt-BR:
   allow_backorders: "Permitir Devoluções"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: Permitir uso de SSL quando no modo de desenvolvimento e teste
   allow_ssl_to_be_used_when_in_production_mode: Permitir uso de SSL quando em modo de produção
-  allowed_ssl_in_production_mode: "SSL {{not}} será usado em produção"
+  allowed_ssl_in_production_mode: "SSL %{not} será usado em produção"
   already_registered: Já Registrado?
   alternative_phone: Telefone alternativo
   amount: Valor
@@ -249,7 +248,7 @@ pt-BR:
   back: Voltar
   back_to_store: "Voltar à Loja"
   backordered: Backordered
-  backordering_is_allowed: "Devolução {{not}} permitida"
+  backordering_is_allowed: "Devolução %{not} permitida"
   balance_due: "Balance Due"
   best_selling_products: "Best Selling Products"
   best_selling_taxons: "Best Selling Taxons"
@@ -305,7 +304,7 @@ pt-BR:
   copy_all_mails_to: Copiar todos os emails para
   cost_price: "Cost Price"
   count: Count
-  count_of_reduced_by: "count of '{{name}}' reduced by {{count}}"
+  count_of_reduced_by: "count of '%{name}' reduced by %{count}"
   country: País
   country_based: "Baseado em País"
   coupon: Cupom
@@ -544,7 +543,7 @@ pt-BR:
   order_processed_but_following_items_are_out_of_stock: "Your order has been processed, but following items are out of stock:"
   order_processed_successfully: "Seu pedido foi processado com sucesso."
   order_summary: Resumo do Pedido
-  order_sure_want_to: "Are you sure you want to {{event}} this order?"
+  order_sure_want_to: "Are you sure you want to %{event} this order?"
   order_total: "Total do Pedido"
   order_total_message: "O valor total cobrado no seu cartão será de"
   order_updated: "Pedido Atualizado"
@@ -584,7 +583,7 @@ pt-BR:
   preview: Preview
   previous: anterior
   price: Preço
-  price_with_vat_included: "{{price}} (inc. VAT)"
+  price_with_vat_included: "%{price} (inc. VAT)"
   problem_authorizing_card: "Problema na autorização do cartão"
   problem_capturing_card: "Problema capturando cartão de crédito"
   problems_processing_order: "Tivemos problemas processando este pedido"
@@ -708,7 +707,7 @@ pt-BR:
         name: "With property value"
         sentence: with property <em>%s</em> and value <em>%s</em>
   products: Produtos
-  products_with_zero_inventory_display: "Produtos com zero inventório {{not}} serão mostrados"
+  products_with_zero_inventory_display: "Produtos com zero inventório %{not} serão mostrados"
   properties: Propriedades
   property: Propriedade
   prototype: Protótipo
@@ -760,7 +759,7 @@ pt-BR:
   scope: Scope
   scopes: Scopes
   search: Pesquisa
-  search_results: "Search results for '{{keywords}}'"
+  search_results: "Search results for '%{keywords}'"
   secure_connection_type: Tipo de Conexão Segura
   secure_creditcard: Secure Creditcard
   select: Selecionar
@@ -795,7 +794,7 @@ pt-BR:
   shipping_rates: "Taxas de Entrega"
   shipping_rates_description: "Gerenciar taxas de entrega"
   shipping_total: "Total de Entrega"
-  shop_by_taxonomy: "Comprar por {{taxonomy}}"
+  shop_by_taxonomy: "Comprar por %{taxonomy}"
   shopping_cart: "Carrinho de Compra"
   show: Show
   show_deleted: "Mostrar Apagados"
@@ -803,7 +802,7 @@ pt-BR:
   show_only_complete_orders: "Apenas mostre pedidos completos"
   show_out_of_stock_products: "Mostre produtos sem estoque"
   show_price_inc_vat: "Mostrar preço incluindo VAT"
-  showing_first_n: "Showing first {{n}}"
+  showing_first_n: "Showing first %{n}"
   sign_up: Cadastrar
   site_name: "Nome do Site"
   site_url: "URL do Site"
