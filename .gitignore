@@ -1,4 +1,5 @@
 config/database.yml
+config/environment.rb
 *~
 tmp/**/*
 doc/api
@@ -15,5 +16,4 @@ public/images
 public/assets
 Thumbs.db
 public/google74606755e7fbcf5a.html
-config/environment.rb
 .bash_profile
