@@ -8,9 +8,14 @@ class SiteExtension < Spree::Extension
 
   # Please use theme_default/config/routes.rb instead for extension routes.
 
-  # def self.require_gems(config)
-  #   config.gem "gemname-goes-here", :version => '1.2.3'
-  # end
+  def self.require_gems(config)
+    config.gem 'rack-rewrite', '0.2.1'
+    require 'rack-rewrite' 
+    config.middleware.insert_before(Rack::Lock, Rack::Rewrite) do
+      r301 '/products',           '/produtos'
+      r301 '/t',                  '/produtos'
+    end
+  end
   
   def activate
 	if Spree::Config.instance
