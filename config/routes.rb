@@ -60,7 +60,7 @@ ActionController::Routing::Routes.draw do |map|
   }
 
   # route globbing for pretty nested taxon and product paths
-  map.nested_taxons '/cat/*id', :controller => 'taxons', :action => 'show'
+  map.nested_taxons '/t/*id', :controller => 'taxons', :action => 'show'
 
   #moved old taxons route to after nested_taxons so nested_taxons will be default route
   #this route maybe removed in the near future (no longer used by core)
