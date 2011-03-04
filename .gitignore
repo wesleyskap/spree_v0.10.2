@@ -1,9 +1,8 @@
-config/environment.rb
+.gitignore
 \#*
 **/*.db
 *~
 .#*
-.gitignore
 .DS_Store
 .dotest
 .idea
@@ -14,6 +13,7 @@ public/dispatch.fcgi
 public/dispatch.rb
 httpd
 pgsql
+/config/environment.rb
 config/*-public.asc
 config/database.yml
 config/mongrel_cluster.yml
