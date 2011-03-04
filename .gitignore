@@ -22,7 +22,7 @@ doc/**/*
 lib/products_index_profiler.rb
 log/*.log
 pkg
-public/assets
+public/assetsis
 public/attachments
 public/blank_iframe.html
 public/images
