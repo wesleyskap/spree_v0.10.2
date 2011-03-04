@@ -4,6 +4,8 @@
 # you don't control web/app server and can't set it the proper way
 # ENV['RAILS_ENV'] ||= 'production'
 
+ENV['GEM_PATH'] = '/home/kerpis/.gems:/usr/lib/ruby/gems/1.8'
+
 # Ativando themas
 SPREE_EXTENSIONS_LOAD_ORDER = [:theme_default, :site, :all]
 

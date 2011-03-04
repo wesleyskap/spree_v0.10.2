@@ -42,3 +42,6 @@ var
 TAGS
 nbproject
 vendor/extensions/theme_default/app/stylesheets/*.css
+config/database.yml
+.gitignore
+.bash_profile
