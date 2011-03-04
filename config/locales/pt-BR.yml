@@ -794,7 +794,7 @@ pt-BR:
   shipping_rates: "Taxas de Entrega"
   shipping_rates_description: "Gerenciar taxas de entrega"
   shipping_total: "Total de Entrega"
-  shop_by_taxonomy: "Comprar por %{taxonomy}"
+  shop_by_taxonomy: "%{taxonomy}"
   shopping_cart: "Carrinho de Compra"
   show: Show
   show_deleted: "Mostrar Apagados"
