@@ -865,6 +865,12 @@ ul.thumbnails li.selected { border-color: #999999; }
   right: 0;
   margin: auto;
 }
+#social-botoes {
+  display: inline;
+  float: left;
+  width: 270px;
+  margin: 20px 10px 0 0;
+}
 #product-description {
   display: inline;
   float: left;

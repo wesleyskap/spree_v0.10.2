@@ -8,7 +8,14 @@
   <div id="thumbnails">
     <%= render 'thumbnails', :product => @product -%>
   </div>
+  <div id="social-botoes">
+	<a href="http://twitter.com/share?url=<%= request.url %>&text=<%= @product.name %>&lang=pt-BR" class="twitter-share-button" data-count="horizontal" rel="nofollow">opa!</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<br />
+	<script src="http://connect.facebook.net/pt_BR/all.js#xfbml=1"></script><fb:like show_faces="true" width="250" action="recommend" font="verdana"></fb:like>
+  </div>
 </div>
+
+
 
 <div id="product-description">
   <% hook :product_description do %>
@@ -26,6 +33,3 @@
 <% end %>
 
 <%= render 'taxons' %>
-
-<a href="http://twitter.com/share?url=<%= request.url %>&text=<%= @product.name %>" class="twitter-share-button" data-count="horizontal" rel="nofollow">opa!</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<iframe src="http://www.facebook.com/plugins/like.php?href=<%= request.url %>&layout=standard&show_faces=false&width=380&action=like&colorscheme=light&height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:25px;" allowtransparency="true"></iframe>
