@@ -4,13 +4,22 @@
 # you don't control web/app server and can't set it the proper way
 # ENV['RAILS_ENV'] ||= 'production'
 
-ENV['GEM_PATH'] = '/home/kerpis/.gems:/usr/lib/ruby/gems/1.8'
-
 # Ativando themas
 SPREE_EXTENSIONS_LOAD_ORDER = [:theme_default, :site, :all]
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 SPREE_GEM_VERSION = '0.10.2' unless defined? SPREE_GEM_VERSION
+
+if Gem::VERSION >= "1.3.6" 
+    module Rails
+        class GemDependency
+            def requirement
+                r = super
+                (r == Gem::Requirement.default) ? nil : r
+            end
+        end
+    end
+end
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
