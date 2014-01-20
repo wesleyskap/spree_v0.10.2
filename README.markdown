@@ -82,3 +82,7 @@ Running from edge sources (latest and greatest features)
         script/server
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wesleyskap/spv0.10.2/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
